@@ -32,18 +32,10 @@
       ],
       // callback after all loaded
       function () {
-         //TSC.playerConfiguration.addMediaSrc("LansingFacts_NoXMP_Captions.mp4.mp4");
-         TSC.playerConfiguration.addMediaSrc("https://content.screencast.com/users/JerAldrich/folders/Default/media/cc65fb2e-171e-4d1b-ac78-aa08653dd194/LansingFacts_NoXMP_Captions.mp4.mp4");
+         TSC.playerConfiguration.addMediaSrc("CMac2019_FlippedClassroom_QuizTest.mp4");
          TSC.playerConfiguration.setXMPSrc("xmpFile.xml");
          TSC.localizationStrings.setLanguage(TSC.languageCodes.ENGLISH);
-         TSC.playerConfiguration.setPosterImageSrc("FirstFrame.png");
-
-         TSC.playerConfiguration.addCaptionSrc("lansingpromo_hd_mp4.sami", "en-US");
-         //TSC.playerConfiguration.addCaptionSrc("lansingpromo_hd_mp4.sbv", "fr-FR");
-         TSC.playerConfiguration.addCaptionSrc("lansingpromo_hd_mp4.srt", "fr-FR");
-         TSC.playerConfiguration.addCaptionSrc("lansingpromo_hd_mp4.srt", "de-DE");
-         TSC.playerConfiguration.addCaptionSrc("lansingpromo_hd_mp4.ttml", "es-ES");
-         TSC.playerConfiguration.addCaptionSrc("lansingpromo_hd_mp4.vtt", "ja-jp");
+         TSC.playerConfiguration.setPosterImageSrc("FirstFrame.png")
          
          TSC.mediaPlayer.init("#tscVideoContent");
       }
